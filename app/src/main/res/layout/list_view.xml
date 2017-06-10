@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/title"
+        android:padding="12dp"
+        android:textSize="22dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/headlineColor"
+        tools:text="This is going to be a long headline, very looong, more long." />
+
+    <TextView
+        android:id="@+id/author"
+        tools:text="Shiva Ratan"
+        android:paddingLeft="12dp"
+        android:textSize="14dp"
+        android:textColor="@color/authorColor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:id="@+id/date"
+        tools:text="June 10, 2017"
+        android:layout_width="wrap_content"
+        android:paddingLeft="12dp"
+        android:textSize="14dp"
+        android:textColor="@color/dateColor"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/section"
+        tools:text="Development"
+        android:textSize="14dp"
+        android:paddingLeft="12dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/tagColor"
+        android:layout_marginBottom="8dp"/>
+
+</LinearLayout>
